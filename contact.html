@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | EduExcel - Get in Touch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary fs-3" href="index.html">PRATHAM<span class="text-dark">S</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-medium">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+                <button class="btn btn-primary ms-lg-3 rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary py-5 text-white text-center">
+        <div class="container py-3">
+            <h1 class="fw-bold">Contact Our Support Team</h1>
+            <p class="mb-0">Have questions? We are here to help you 24/7.</p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-5 text-center">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card border-0 shadow-sm p-4 h-100">
+                        <i class="bi bi-geo-alt-fill fs-1 text-primary mb-3"></i>
+                        <h5 class="fw-bold">Visit Us</h5>
+                        <p class="text-muted">123 Education Hub, Civil Lines,<br>Katni, MP - 483501</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm p-4 h-100">
+                        <i class="bi bi-telephone-inbound-fill fs-1 text-primary mb-3"></i>
+                        <h5 class="fw-bold">Call Us</h5>
+                        <p class="text-muted">+91 62613 75866<br>+91 12345 67890</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card border-0 shadow-sm p-4 h-100">
+                        <i class="bi bi-envelope-paper-fill fs-1 text-primary mb-3"></i>
+                        <h5 class="fw-bold">Email Us</h5>
+                        <p class="text-muted">info@pratham.com<br>admissions@pratham.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="card border-0 shadow p-4 p-md-5 rounded-4">
+                        <h3 class="fw-bold mb-4">Send an Inquiry</h3>
+                        <form id="contactPageForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control bg-light border-0" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control bg-light border-0" placeholder="+91..." required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" class="form-control bg-light border-0" placeholder="name@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Course Interested In</label>
+                                    <select class="form-select bg-light border-0">
+                                        <option selected disabled>Choose a course...</option>
+                                        <option>IIT-JEE</option>
+                                        <option>NEET</option>
+                                        <option>Foundation</option>
+                                        <option>Others</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control bg-light border-0" rows="4" placeholder="How can we help you?"></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="rounded-4 overflow-hidden shadow h-100">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117329.13264639919!2d80.32356586326848!3d23.49521360172421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39810a90586e3f43%3A0x629525c2763d5086!2sKatni%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1714312345678!5m2!1sen!2sin" 
+                            width="100%" height="100%" style="border:0; min-height: 450px;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white-50 py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 PrathamS Coaching. Made with <i class="bi bi-heart-fill text-danger"></i> for Students.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/916261375866" class="whatsapp-float shadow" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+        
+        // Specific Page Validation
+        document.getElementById('contactPageForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Your inquiry has been sent successfully! Our team will contact you shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

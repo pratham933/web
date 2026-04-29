@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses | PrathamS Premier Coaching</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary fs-3" href="index.html">PRATHAM<span class="text-dark">S</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-medium">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <button class="btn btn-primary ms-lg-3 rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark py-5 text-white text-center">
+        <div class="container py-4">
+            <h1 class="fw-bold display-5">Accelerate Your Learning</h1>
+            <p class="lead text-white-50">Choose a program that fits your career goals.</p>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card h-100 border-0 shadow-sm course-card">
+                        <img src="/assets/WhatsApp Image 2026-04-28 at 19.05.56 (3).jpeg" class="card-img-top" alt="JEE">
+                        <div class="card-body p-4 text-center">
+                            <h4 class="fw-bold">IIT-JEE Main & Advanced</h4>
+                            <p class="text-muted small">Intensive coaching with focus on concepts and speed.</p>
+                            <button class="btn btn-primary w-100 rounded-pill" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll in JEE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 shadow-sm course-card">
+                        <img src="/assets/WhatsApp Image 2026-04-28 at 19.05.56 (2).jpeg" class="card-img-top" alt="NEET">
+                        <div class="card-body p-4 text-center">
+                            <h4 class="fw-bold">NEET Medical Prep</h4>
+                            <p class="text-muted small">Expert biology and chemistry modules for medical entrance.</p>
+                            <button class="btn btn-primary w-100 rounded-pill" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll in NEET</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 shadow-sm course-card">
+                        <img src="/assets/WhatsApp Image 2026-04-28 at 19.05.56 (1).jpeg" class="card-img-top" alt="Foundation">
+                        <div class="card-body p-4 text-center">
+                            <h4 class="fw-bold">Foundation (Class 8-10)</h4>
+                            <p class="text-muted small">Strong base for NTSE, Olympiads, and school exams.</p>
+                            <button class="btn btn-primary w-100 rounded-pill" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll in Foundation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Common Questions</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion shadow-sm" id="courseFaq">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#f1">
+                                    Do you provide recorded lectures?
+                                </button>
+                            </h2>
+                            <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#courseFaq">
+                                <div class="accordion-body">Yes, all students get access to our mobile app for recorded sessions.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#f2">
+                                    What is the batch size?
+                                </button>
+                            </h2>
+                            <div id="f2" class="accordion-collapse collapse" data-bs-parent="#courseFaq">
+                                <div class="accordion-body">We maintain small batches of 30-40 students for personalized attention.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 PrathamS Coaching. Leading Education Provider.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="enrollModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title fw-bold">Instant Course Enrollment</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form id="courseEnrollForm">
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" id="stuName" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">WhatsApp Number</label>
+                            <input type="tel" id="stuPhone" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Choose Course</label>
+                            <select id="stuCourse" class="form-select">
+                                <option>IIT-JEE</option>
+                                <option>NEET</option>
+                                <option>Foundation</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-2">Connect on WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/916261375866" class="whatsapp-float shadow" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+
+        // Logic for Course Page Modal Redirection
+        const courseForm = document.getElementById('courseEnrollForm');
+        if(courseForm) {
+            courseForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const name = document.getElementById('stuName').value;
+                const phone = document.getElementById('stuPhone').value;
+                const course = document.getElementById('stuCourse').value;
+                
+                // Formats for WhatsApp (Update the number below)
+                const wpNumber = "916261375866"; 
+                const msg = encodeURIComponent(`*New Course Enrollment*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Course:* ${course}`);
+                window.open(`https://wa.me/${wpNumber}?text=${msg}`, '_blank');
+                
+                bootstrap.Modal.getInstance(document.getElementById('enrollModal')).hide();
+                this.reset();
+            });
+        }
+    </script>
+</body>
+</html>

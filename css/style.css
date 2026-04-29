@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #0d6efd;
+    --dark-color: #1a1a1a;
+    --light-bg: #f8f9fa;
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 90vh;
+    background: linear-gradient(135deg, #ffffff 0%, #e9f2ff 100%);
+    padding: 80px 0;
+}
+
+/* Course Cards */
+.course-card {
+    border: none;
+    border-radius: 15px;
+    transition: var(--transition);
+    overflow: hidden;
+    background: #fff;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* Floating WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    z-index: 1000;
+    transition: var(--transition);
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Custom Buttons */
+.btn-primary {
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--dark-color);
+    color: #bbb;
+    padding: 60px 0 20px;
+}
+
+footer h5 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.course-card img{
+    height: 200px;
+    object-fit: cover;
+}
